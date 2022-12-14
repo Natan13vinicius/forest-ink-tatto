@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* tags */
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 95px;
+    line-height: 100px;
+    font-weight: 800;
+    color: white;
+
+
+
+}
+
+/* all-margin */
+.all-margin {
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    padding-left: 2.5em;
+    padding-top: 3em;
+
+
+}
+
+/* background-1 */
+.header-apresentation {
+
+    height: 93.5vh;
+    background-image: url(/assets/img/tatto-apresentation-mobile.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+/* main-header */
+.main-header {
+    /* background-color: aquamarine; */
+    height: 100vh;
+    position: relative;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+
+}
+
+/* main-header h1 */
+.main-header h1 {
+    margin-bottom: 0.50em;
+    border-bottom: 1px solid RGB(234, 88, 12);
+    padding-bottom: .50em;
+
+
+}
+
+/* main-header p */
+.main-header p {
+    margin-bottom: 3em;
+    color: white;
+}
+
+/* main-header button */
+.main-header button {}

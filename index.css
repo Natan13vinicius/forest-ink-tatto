@@ -1,7 +1,24 @@
 * {
     margin: 0;
     padding: 0;
+
+}
+
+body {
     box-sizing: border-box;
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    padding-left: 3em;
+    padding-right: .10em;
+    padding-top: 3em;
+    position: relative;
+
+}
+
+main {
+    box-sizing: border-box;
+
 }
 
 /* tags */
@@ -17,7 +34,7 @@ h1 {
 .h1-text-fill-orange {
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke: thin RGB(234, 88, 12);
-    opacity: .1;
+    opacity: .2;
     font-size: 120px;
     position: absolute;
     top: 150px;
@@ -25,15 +42,43 @@ h1 {
     line-height: 104px;
 }
 
-/* all-margin */
-.all-margin {
-    background-color: black;
-    height: 100vh;
-    width: 100%;
-    padding-left: 2.5em;
-    padding-top: 3em;
-    position: relative;
 
+/* nav-menu */
+.nav-menu {
+    width: 92%;
+    background-color: black;
+    height: 7em;
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    position: fixed;
+    top: 0;
+    align-items: center;
+    text-align: center;
+    border-bottom: 2px solid RGBA(234, 88, 12, 0.3);
+
+
+
+
+
+}
+
+/* logo-forest-svg*/
+.logo-forest-svg {
+    height: 6em;
+    position: absolute;
+    left: 0;
+}
+
+/* vector-svg-menu-mobile */
+.vector-svg-menu-mobile {
+    height: 1.50em;
+    position: absolute;
+    margin-left: 15em;
+    margin-right: 1.70em;
+    right: 0;
 
 }
 
@@ -43,7 +88,12 @@ h1 {
     height: 93.5vh;
     background-image: url(/assets/img/tatto-apresentation-mobile.jpeg);
     background-size: cover;
-    background-repeat: no-repeat
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    max-width: 100%;
+    min-width: 100%;
+
+
 }
 
 /* main-header */
@@ -61,11 +111,9 @@ h1 {
 /* h1 principal*/
 .h1-principal {
     margin-bottom: 0.50em;
-    border-bottom: 1px solid RGB(234, 88, 12);
-    border-bottom-right-radius: -20px;
+    /* border-bottom: 1px solid RGBA(234, 88, 12, 0.3); */
+
     padding-bottom: .50em;
-
-
 
 }
 

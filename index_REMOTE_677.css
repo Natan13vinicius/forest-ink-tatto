@@ -34,12 +34,11 @@ h1 {
 .h1-text-fill-orange {
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke: thin RGB(234, 88, 12);
-    opacity: .1;
+    opacity: .2;
     font-size: 120px;
     position: absolute;
     top: 150px;
     left: 0;
-
     line-height: 104px;
 }
 
@@ -131,11 +130,4 @@ button {
 }
 
 /* main-header button */
-.main-header button {
-    width: 50%;
-    background-color: transparent;
-    color: RGB(234, 88, 12);
-    border: 2px solid RGB(234, 88, 12);
-    padding: .70em;
-
-}
+.main-header button {}

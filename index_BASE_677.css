@@ -9,7 +9,7 @@ body {
     background-color: black;
     height: 100vh;
     width: 100%;
-    /* padding-left: 3em; */
+    padding-left: 3em;
     padding-right: .10em;
     padding-top: 3em;
     position: relative;
@@ -34,27 +34,29 @@ h1 {
 .h1-text-fill-orange {
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke: thin RGB(234, 88, 12);
-    opacity: .1;
+    opacity: .2;
     font-size: 120px;
     position: absolute;
     top: 150px;
     left: 0;
-
     line-height: 104px;
 }
 
 
 /* nav-menu */
 .nav-menu {
-    width: 100%;
+    width: 92%;
     background-color: black;
     height: 7em;
     display: flex;
     justify-content: space-between;
     justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
     position: fixed;
     top: 0;
     align-items: center;
+    text-align: center;
     border-bottom: 2px solid RGBA(234, 88, 12, 0.3);
 
 
@@ -67,52 +69,43 @@ h1 {
 .logo-forest-svg {
     height: 6em;
     position: absolute;
-    left: 30px;
-
+    left: 0;
 }
 
 /* vector-svg-menu-mobile */
 .vector-svg-menu-mobile {
     height: 1.50em;
     position: absolute;
-    right: 5em;
-
-
+    margin-left: 15em;
+    margin-right: 1.70em;
+    right: 0;
 
 }
 
 /* background-1 */
 .header-apresentation {
-    padding-right: 1em;
+
     height: 93.5vh;
-
-}
-
-/* main-header */
-.main-header {
     background-image: url(/assets/img/tatto-apresentation-mobile.jpeg);
-
     background-size: cover;
     background-repeat: no-repeat;
     box-sizing: border-box;
     max-width: 100%;
     min-width: 100%;
+
+
+}
+
+/* main-header */
+.main-header {
+    /* background-color: aquamarine; */
     height: 100vh;
-    margin-left: 3em;
-    margin-right: 1em;
-    padding-right: 1em;
+
     display: flex;
     flex-direction: column;
     align-items: left;
     justify-content: center;
 
-
-}
-
-/* main.header p e button */
-.main-header p,
-button {
-    font-family: 'Montserrat', sans-serif;
 }
 
 /* h1 principal*/
@@ -131,11 +124,4 @@ button {
 }
 
 /* main-header button */
-.main-header button {
-    width: 50%;
-    background-color: transparent;
-    color: RGB(234, 88, 12);
-    border: 2px solid RGB(234, 88, 12);
-    padding: .70em;
-
-}
+.main-header button {}

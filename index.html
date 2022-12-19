@@ -28,12 +28,25 @@
     <div class="header-apresentation">
         <header>
             <aside>
-                <nav class="nav-menu">
+                <!-- trocar nome da div pois nav é o menu de navegacao -->
+                <div class="nav-menu">
                     <!-- logo forest ink -->
                     <img class="logo-forest-svg" src="/svg/forest-logo-mobile-removebg-preview (1).svg"
                         alt="logo forest ink">
                     <!-- menu mobile -->
-                    <img class="vector-svg-menu-mobile" src="/svg/Vector.svg" alt="">
+                    <img class="vector-svg-menu-mobile" src="/svg/Vector.svg" alt="menunavbar" onclick="clickMenu()">
+                </div>
+                <nav class="header-navbar" id="menunav">
+                    <div class="logo-header-navbar">
+                        <p>Forest-ink</p>
+                    </div>
+                    <ul>
+                        <li><a href="#">Tatto</a></li>
+                        <li><a href="#">Piercing</a></li>
+                        <li><a href="#">Contato</a></li>
+
+                    </ul>
+
                 </nav>
             </aside>
         </header>

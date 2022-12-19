@@ -13,7 +13,7 @@ body {
     padding-right: .10em;
     padding-top: 3em;
     position: relative;
-
+    max-width: 100%;
 }
 
 main {
@@ -48,7 +48,7 @@ h1 {
 .nav-menu {
     width: 100%;
     background-color: black;
-    height: 7em;
+    height: 6em;
     display: flex;
     justify-content: space-between;
     justify-content: space-around;
@@ -75,7 +75,7 @@ h1 {
 .vector-svg-menu-mobile {
     height: 1.50em;
     position: absolute;
-    right: 5em;
+    right: 3em;
 
 
 
@@ -109,11 +109,21 @@ h1 {
 
 }
 
+/* main-header-p-box */
+.main-header-p-box {
+    width: 95%;
+    flex-direction: row;
+    line-height: 1.30em;
+}
+
 /* main.header p e button */
 .main-header p,
 button {
     font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    margin-bottom: 1em;
 }
+
 
 /* h1 principal*/
 .h1-principal {
@@ -126,9 +136,12 @@ button {
 
 /* main-header p */
 .main-header p {
-    margin-bottom: 3em;
+    margin-bottom: .70em;
     color: white;
 }
+
+/* button-box */
+.button-box {}
 
 /* main-header button */
 .main-header button {
@@ -137,5 +150,7 @@ button {
     color: RGB(234, 88, 12);
     border: 2px solid RGB(234, 88, 12);
     padding: .70em;
+    max-width: 50%;
+
 
 }

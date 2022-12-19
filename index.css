@@ -20,7 +20,7 @@ body {
 
 main {
     box-sizing: border-box;
-
+    position: relative;
 }
 
 /* tags */
@@ -39,7 +39,7 @@ h1 {
     opacity: .1;
     font-size: 120px;
     position: absolute;
-    top: 150px;
+    top: 120px;
     left: 0;
 
     line-height: 104px;
@@ -119,44 +119,81 @@ h1 {
 .main-header-p-box {
     width: 95%;
     flex-direction: row;
-    line-height: 1.30em;
+    line-height: 1.20em;
+
+    margin-top: 9em;
+
 }
 
 /* main.header p e button */
 .main-header p,
-button {
+button,
+a {
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
-    margin-bottom: 1em;
+    /* margin-bottom: 1em; */
 }
 
 
 /* h1 principal*/
 .h1-principal {
-    margin-bottom: 0.50em;
+    /* margin-bottom: 0.50em; */
     /* border-bottom: 1px solid RGBA(234, 88, 12, 0.3); */
-
+    position: absolute;
     padding-bottom: .50em;
+    top: 1em;
 
 }
 
 /* main-header p */
 .main-header p {
-    margin-bottom: .70em;
+    margin-bottom: .0em;
     color: white;
+    /* position: absolute; */
 }
 
 /* button-box */
 .button-box {}
 
+.button-box a {
+    text-decoration: none;
+
+    color: RGB(234, 88, 12);
+}
+
+
+
 /* main-header button */
 .main-header button {
-    width: 50%;
+    width: 155px;
     background-color: transparent;
     color: RGB(234, 88, 12);
     border: 2px solid RGB(234, 88, 12);
     padding: .70em;
     max-width: 50%;
+    margin-top: .80em;
+    display: flex;
+    align-items: center;
+
+    /* list-style: none; */
+    justify-content: space-between;
 
 
+}
+
+button :hover {
+    cursor: pointer;
+}
+
+/* main-svg-arrow */
+.main-svg-arrow {
+
+    width: 100%;
+    text-align: center;
+
+}
+
+.main-svg-arrow a {
+    position: absolute;
+    bottom: 0;
 }

@@ -14,6 +14,8 @@ body {
     padding-top: 3em;
     position: relative;
     max-width: 100%;
+    padding-left: 1em;
+
 }
 
 main {
@@ -46,7 +48,8 @@ h1 {
 
 /* nav-menu */
 .nav-menu {
-    width: 100%;
+    width: 99%;
+    box-sizing: border-box;
     background-color: black;
     height: 6em;
     display: flex;
@@ -85,6 +88,9 @@ h1 {
 .header-apresentation {
     padding-right: 1em;
     height: 93.5vh;
+    width: 93%;
+    max-width: 100%;
+    box-sizing: border-box;
 
 }
 

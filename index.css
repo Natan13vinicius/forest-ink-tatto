@@ -9,7 +9,7 @@ body {
     background-color: black;
     height: 100vh;
     width: 100%;
-    padding-left: 3em;
+    padding-left: 2.50em;
     padding-right: .10em;
     padding-top: 3em;
     position: relative;
@@ -86,7 +86,7 @@ h1 {
 /* background-1 */
 .header-apresentation {
 
-    height: 93.5vh;
+    height: 100vh;
     background-image: url(/assets/img/tatto-apresentation-mobile.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -125,4 +125,11 @@ h1 {
 }
 
 /* main-header button */
-.main-header button {}
+.main-header button {
+    width: 50%;
+    background-color: transparent;
+    color: RGB(234, 88, 12);
+    border: 2px solid RGB(234, 88, 12);
+    padding: .70em;
+
+}

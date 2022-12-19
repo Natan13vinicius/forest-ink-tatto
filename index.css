@@ -51,7 +51,7 @@ h1 {
     width: 99%;
     box-sizing: border-box;
     background-color: black;
-    height: 6em;
+    height: 16vh;
     display: flex;
     justify-content: space-between;
     justify-content: space-around;
@@ -87,7 +87,7 @@ h1 {
 /* background-1 */
 .header-apresentation {
     padding-right: 1em;
-    height: 93.5vh;
+    /* height: 100vh; */
     width: 93%;
     max-width: 100%;
     box-sizing: border-box;
@@ -103,7 +103,7 @@ h1 {
     box-sizing: border-box;
     max-width: 100%;
     min-width: 100%;
-    height: 92vh;
+    height: 91.24vh;
     margin-left: 3em;
     margin-right: 1em;
     padding-right: 1em;

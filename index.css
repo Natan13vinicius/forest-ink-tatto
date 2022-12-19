@@ -39,7 +39,7 @@ h1 {
     opacity: .1;
     font-size: 120px;
     position: absolute;
-    top: 120px;
+    top: 100px;
     left: 0;
 
     line-height: 104px;
@@ -59,7 +59,7 @@ h1 {
     top: 0;
     align-items: center;
     border-bottom: 2px solid RGBA(234, 88, 12, 0.3);
-
+    z-index: 999;
 
 
 
@@ -94,6 +94,8 @@ h1 {
 
 }
 
+
+
 /* main-header */
 .main-header {
     background-image: url(/assets/img/tatto-apresentation-mobile.jpeg);
@@ -111,6 +113,7 @@ h1 {
     flex-direction: column;
     align-items: left;
     justify-content: center;
+
 
 
 }
@@ -141,7 +144,7 @@ a {
     /* border-bottom: 1px solid RGBA(234, 88, 12, 0.3); */
     position: absolute;
     padding-bottom: .50em;
-    top: 1em;
+    top: .80em;
 
 }
 
@@ -153,7 +156,9 @@ a {
 }
 
 /* button-box */
-.button-box {}
+.button-box {
+    position: relative;
+}
 
 .button-box a {
     text-decoration: none;
@@ -190,7 +195,10 @@ button :hover {
 
     width: 100%;
     text-align: center;
-
+    padding-top: 1em;
+    position: relative;
+    background-color: red;
+    height: 20px;
 }
 
 .main-svg-arrow a {

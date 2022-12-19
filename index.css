@@ -5,17 +5,8 @@
 }
 
 body {
-    box-sizing: border-box;
     background-color: black;
-    height: 100vh;
-    width: 100%;
-    /* padding-left: 3em; */
-    padding-right: .10em;
-    padding-top: 3em;
-    position: relative;
     max-width: 100%;
-    padding-left: 1em;
-
 }
 
 main {
@@ -39,9 +30,9 @@ h1 {
     opacity: .1;
     font-size: 120px;
     position: absolute;
-    top: 100px;
+    top: 20%;
     left: 0;
-
+    /* background-color: green; */
     line-height: 104px;
 }
 
@@ -51,7 +42,7 @@ h1 {
     width: 99%;
     box-sizing: border-box;
     background-color: black;
-    height: 16vh;
+    height: 15vh;
     display: flex;
     justify-content: space-between;
     justify-content: space-around;
@@ -87,10 +78,13 @@ h1 {
 /* background-1 */
 .header-apresentation {
     padding-right: 1em;
-    /* height: 100vh; */
     width: 93%;
     max-width: 100%;
     box-sizing: border-box;
+    height: 100vh;
+    max-height: 560px;
+    /* background-color: red; */
+
 
 }
 
@@ -105,7 +99,7 @@ h1 {
     box-sizing: border-box;
     max-width: 100%;
     min-width: 100%;
-    height: 91.24vh;
+    height: 100%;
     margin-left: 3em;
     margin-right: 1em;
     padding-right: 1em;
@@ -118,13 +112,16 @@ h1 {
 
 }
 
+/* main-header-text-button-box */
+.main-header-text-button-box {}
+
 /* main-header-p-box */
 .main-header-p-box {
     width: 95%;
     flex-direction: row;
     line-height: 1.20em;
 
-    margin-top: 9em;
+    margin-top: 3.50em;
 
 }
 
@@ -137,27 +134,36 @@ a {
     /* margin-bottom: 1em; */
 }
 
+.forest-ink-text {
+    position: relative;
+    /* background-color: rgb(189, 185, 185); */
+    height: 40%;
+    top: 5em;
+}
+
 
 /* h1 principal*/
 .h1-principal {
     /* margin-bottom: 0.50em; */
     /* border-bottom: 1px solid RGBA(234, 88, 12, 0.3); */
-    position: absolute;
+    /* position: absolute; */
     padding-bottom: .50em;
-    top: .80em;
-
+    top: .99em;
 }
+
+
 
 /* main-header p */
 .main-header p {
     margin-bottom: .0em;
     color: white;
-    /* position: absolute; */
+
 }
 
 /* button-box */
 .button-box {
-    position: relative;
+    /* position: relative; */
+
 }
 
 .button-box a {
@@ -193,15 +199,24 @@ button :hover {
 /* main-svg-arrow */
 .main-svg-arrow {
 
-    width: 100%;
+    width: 90%;
     text-align: center;
-    padding-top: 1em;
+    padding-top: 6em;
+    position: relative;
+    /* top: 6em; */
 
 
 
 }
 
 .main-svg-arrow a {
-    position: absolute;
-    bottom: 0;
+    /* position: absolute; */
+    /* bottom: 0; */
+
+}
+
+.teste {
+    width: 100%;
+    height: 100vh;
+    background-color: red;
 }

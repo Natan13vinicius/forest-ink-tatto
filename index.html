@@ -20,6 +20,9 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display:wght@800&family=Roboto:ital,wght@0,300;1,300&display=swap"
         rel="stylesheet">
+    <!-- fontawesome ICON NAVBAR -->
+    <link rel="stylesheet" href="/fontawesome/fontawesome-free-6.2.0-web/fontawesome-free-6.2.0-web/css/all.min.css">
+
 </head>
 
 <body>
@@ -36,23 +39,25 @@
                     <!-- menu mobile -->
                     <img class="vector-svg-menu-mobile" src="/svg/Vector.svg" alt="menunavbar" onclick="clickMenu()">
                 </div>
-                <nav class="header-navbar" id="menunav">
+                <div class="header-navbar" id="menunav">
                     <div class="logo-header-navbar">
                         <p class="forest">Forest-ink</p>
                         <img class="x-navbar" src="/svg/x-navbar.svg" alt="">
                     </div>
-                    <ul>
-                        <li><a href="#">Tatto</a></li>
-                        <li><a href="#">Piercing</a></li>
-                        <li><a href="#">Contato</a></li>
+                    <nav>
+                        <ul>
+                            <li><a href="#">Tatto</a></li>
+                            <li><a href="#">Piercing</a></li>
+                            <li><a href="#">Contato</a></li>
 
-                    </ul>
-                    <div class="navbar-orcamento">
-                        <img src="/svg/Shape (Stroke).svg" alt="link de orçamento">
-                        <p>Orçamento</p>
-                    </div>
+                        </ul>
+                        <div class="navbar-orcamento">
+                            <img src="/svg/Shape (Stroke).svg" alt="link de orçamento">
+                            <p>Orçamento</p>
+                        </div>
+                    </nav>
 
-                </nav>
+                </div>
             </aside>
         </header>
         <div class="main-header">
@@ -93,6 +98,19 @@
 
 
     </footer>
+    <!-- script -->
+
+    <script>
+        function clickmenu() {
+            var menunav = document.getElementById("menunav")
+            if (menunav.style.display == "block") {
+                menunav.style.display = "none"
+            } else {
+                menunav.style.display = "block"
+            }
+
+        }
+    </script>
 </body>
 
 </html>

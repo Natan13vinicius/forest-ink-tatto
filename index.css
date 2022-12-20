@@ -53,6 +53,9 @@ h1 {
     z-index: 999;
 }
 
+/* navmenu i */
+
+
 /* logo-header-navbar */
 .logo-header-navbar {
     width: 90%;
@@ -89,6 +92,9 @@ h1 {
 
 }
 
+#menunav {
+    /* display: none; */
+}
 
 
 /* header-navbar li */

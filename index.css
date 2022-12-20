@@ -53,6 +53,30 @@ h1 {
     z-index: 999;
 }
 
+/* logo-header-navbar */
+.logo-header-navbar {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 30px;
+    border-bottom: 2px solid RGB(0, 0, 0);
+    color: RGB(255, 255, 255);
+}
+
+/* logo-header-navbar img */
+.logo-header-navbar img {
+    margin-right: .80em;
+}
+
+/* header-navbar p,li */
+.header-navbar .forest {
+    font-family: 'Playfair Display', serif;
+}
+
 /* header-navbar */
 .header-navbar {
     width: 100%;
@@ -61,29 +85,61 @@ h1 {
     background-color: RGB(234, 88, 12);
     z-index: 999;
     /* NAVBAR DESATIVADO!!!!! */
-    display: none;
+    /* display: none; */
 
 }
 
-/* header-logo-navbar */
-.logo-header-navbar {
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    height: 3em;
+
+
+/* header-navbar li */
+.header-navbar li {
+    display: flex;
+    justify-content: left;
+    padding-left: 1.30em;
+    padding-top: 2.50em;
+
+
+}
+
+/* header-navbar a */
+.header-navbar a {
+    list-style: none;
+    text-decoration: none;
+    color: RGB(255, 255, 255);
+    font-size: 60px;
+    font-family: 'Playfair Display', serif;
+    border-bottom: 1px solid RGB(255, 255, 255);
+
+}
+
+.navbar-orcamento {
+
     display: flex;
     align-items: center;
-    text-align: left;
-    font-size: 30px;
-    border-bottom: 1px solid RGB(0, 0, 0);
-    color: white;
+    padding-top: 10em;
+    padding-left: 1.50em;
+    color: RGB(124, 45, 18);
+
 }
 
-/* header-navbar p,li */
-.header-navbar p,
-li {
-    font-family: 'Playfair Display', serif;
+
+/* navbar-orçamento p */
+.navbar-orcamento p {
+    font-size: 25.26px;
+    margin-left: .50em;
+    font-family: 'Montserrat', sans-serif;
+
 }
+
+.navbar-orcamento p,
+img :hover {
+    cursor: pointer;
+}
+
+
+
+
+
 
 /* logo-forest-svg*/
 .logo-forest-svg {

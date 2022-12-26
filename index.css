@@ -7,6 +7,7 @@
 body {
     background-color: black;
     max-width: 100%;
+    overflow-x: hidden;
 }
 
 main {

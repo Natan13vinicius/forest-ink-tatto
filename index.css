@@ -302,8 +302,24 @@ button :hover {
 
 }
 
-.teste {
+.tatto-main {
     width: 100%;
     height: 100vh;
-    background-color: red;
+    background-image: url(/assets/img/coming-soon-bg-3\ 2.png);
+
+    background-size: cover;
+    background-repeat: repeat;
+    box-sizing: border-box;
+    max-width: 100%;
+    min-width: 100%;
+
+    margin-left: 3em;
+    margin-right: 1em;
+    padding-right: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+
+
 }

@@ -37,12 +37,14 @@
                     <img class="logo-forest-svg" src="/svg/forest-logo-mobile-removebg-preview (1).svg"
                         alt="logo forest ink">
                     <!-- menu mobile -->
-                    <img class="vector-svg-menu-mobile" src="/svg/Vector.svg" alt="menunavbar" onclick="clickMenu()">
+                    <img class="vector-svg-menu-mobile" src="/svg/Vector.svg" alt="menunavbar"
+                        onclick="clickMenu()"></button>
                 </div>
                 <div class="header-navbar" id="menunav">
                     <div class="logo-header-navbar">
                         <p class="forest">Forest-ink</p>
-                        <img class="x-navbar" src="/svg/x-navbar.svg" alt="">
+                        <img class="x-navbar" id="closenav" src="/svg/x-navbar.svg" alt="close-navbar"
+                            onclick="clickMenu()">
                     </div>
                     <nav>
                         <ul>
@@ -101,15 +103,19 @@
     <!-- script -->
 
     <script>
-        function clickmenu() {
+        function clickMenu() {
             var menunav = document.getElementById("menunav")
             if (menunav.style.display == "block") {
                 menunav.style.display = "none"
             } else {
                 menunav.style.display = "block"
             }
-
         }
+
+
+
+
+
     </script>
 </body>
 

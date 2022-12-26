@@ -89,12 +89,15 @@ h1 {
     z-index: 999;
     /* NAVBAR DESATIVADO!!!!! */
     display: none;
-    transition: 3s;
+
+
 }
 
 #menunav {
     /* display: none; */
+
 }
+
 
 
 /* header-navbar li */

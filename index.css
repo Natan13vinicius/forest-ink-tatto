@@ -447,3 +447,42 @@ button :hover {
 .piercing-main-content img {
     margin-left: 1em;
 }
+
+/* sessao contato */
+
+/* contato */
+.contato {
+    height: 90vh;
+    width: 100%;
+    /* background-color: red; */
+    margin-left: 3em;
+}
+
+/* contato-main-content */
+.contato-main-content {
+    width: 100%;
+    height: 100vh;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+}
+
+/* contato-main-content h1 */
+.contato-main-content h1 {
+    font-size: 60px;
+}
+
+/* mapbox */
+.mapbox {
+    width: 100%;
+    height: 80vh;
+    background-color: black;
+}
+
+/* mapbox p */
+.mapbox p {
+    color: white;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}

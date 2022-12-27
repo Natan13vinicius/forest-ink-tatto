@@ -461,7 +461,7 @@ button :hover {
 /* contato-main-content */
 .contato-main-content {
     width: 100%;
-    height: 100vh;
+    height: 90vh;
     /* background-color: blue; */
     display: flex;
     flex-direction: column;
@@ -485,4 +485,26 @@ button :hover {
     color: white;
     font-size: 16px;
     font-family: 'Montserrat', sans-serif;
+    margin-top: 1em;
+}
+
+/* mobile-phone */
+
+.mobile-phone {
+    display: flex;
+    /* background-color: red; */
+    margin-top: 2em;
+
+    align-items: center;
+}
+
+/* mobile-phone img */
+.mobile-phone img {
+    margin-right: 2vw;
+}
+
+/* mobile-phone p */
+.mobile-phone p {
+    color: RGB(234, 88, 12);
+    margin-top: -.10em;
 }

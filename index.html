@@ -22,7 +22,15 @@
         rel="stylesheet">
     <!-- fontawesome ICON NAVBAR -->
     <link rel="stylesheet" href="/fontawesome/fontawesome-free-6.2.0-web/fontawesome-free-6.2.0-web/css/all.min.css">
-
+    <!-- owl-carousel-css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- owl-carousel-theme -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -106,7 +114,65 @@
 
             <!-- sessao carousel tatto -->
             <section class="carousel-tatto">
+                <p>Galeria/Tattos</p>
+                <div class="owl-carousel owl-theme">
 
+                    <div class="item">
+                        <img src="/assets/img/tatto-apresentation-mobile.jpeg" alt="">
+                    </div>
+
+                    <div class="item">
+                        <img src="/assets/img/img_sessao_piercing.png" alt="">
+                    </div>
+
+                    <div class="item">
+                        <img src="/assets/img/piercing img 6 1.png" alt="">
+                    </div>
+
+                    <div class="item">
+                        <img src="/assets/img/tatto-apresentation-mobile.jpeg" alt="">
+                    </div>
+                </div>
+
+
+                <!-- jquery -->
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+                    integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
+                    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+                <!-- carousel js -->
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+                    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+                    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+                <!-- script -->
+                <script>
+                    $(document).ready(function () {
+                        $(".owl-carousel").owlCarousel();
+                    })
+
+                    // responsive
+                    $('.owl-carousel').owlCarousel({
+                        loop: true,
+                        margin: 200,
+                        responsiveClass: true,
+                        responsive: {
+                            0: {
+                                items: 1,
+                                nav: true
+                            },
+                            600: {
+                                items: 1,
+                                nav: false
+                            },
+                            1000: {
+                                items: 5,
+                                nav: true,
+                                loop: false
+                            }
+                        }
+                    })
+                </script>
             </section>
 
             <!-- sessao piercing -->

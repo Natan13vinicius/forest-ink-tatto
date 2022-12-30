@@ -508,3 +508,48 @@ button :hover {
     color: RGB(234, 88, 12);
     margin-top: -.10em;
 }
+
+/* carousel-tatto */
+.carousel-tatto {
+    height: 100vh;
+    width: 95%;
+    background-color: white;
+    margin-left: auto;
+    padding: 0 2em;
+    margin-right: auto;
+
+
+}
+
+/* carousel-tatto p */
+
+.carousel-tatto p {
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+
+}
+
+.owl-carousel img {
+    height: 73.50vh;
+    max-width: 346px;
+    border-radius: 5px;
+
+}
+
+.owl-carousel span {
+    color: orange;
+    font-size: 1.80em;
+    padding: 0 1.70em;
+
+}
+
+/* owl-nav */
+.owl-nav {
+    margin: 0;
+    padding: 0;
+}
+
+/* owl-dots */
+.owl-dots {
+    display: none;
+}

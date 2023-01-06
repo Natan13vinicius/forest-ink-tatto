@@ -23,6 +23,15 @@ h1 {
     line-height: 100px;
     font-weight: 800;
     color: white;
+    visibility: hidden;
+}
+
+p {
+    visibility: hidden;
+}
+
+button {
+    visibility: hidden;
 }
 
 /* h1-text-fill-orange */
@@ -571,7 +580,7 @@ button :hover {
     display: none;
 }
 
-/* carousel-piercing */
+
 
 /* carousel-piercing */
 .carousel-piercing {

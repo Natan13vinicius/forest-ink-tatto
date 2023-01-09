@@ -90,10 +90,11 @@
                         nisi,quis voluptat erat hendrer.</p>
                 </div>
                 <div class="button-box">
-                    <a href="https://api.whatsapp.com/send?phone=5511960826995"><button>Orçamento</a><a href=""><img
-                            src="/svg/whatsapp-svg.svg" alt="whatsapplink"></button></a>
+                    <a href="https://api.whatsapp.com/send?phone=5511960826995"><button>Orçamento</a><a
+                        href="https://api.whatsapp.com/send?phone=5511960826995"><img src="/svg/whatsapp-svg.svg"
+                            alt="whatsapplink"></button></a>
                     <div class="main-svg-arrow" id="svg-arrow">
-                        <a href=""><img src="/svg/Vector-arrow-down.svg" alt=""> </a>
+                        <a href="#tattoo"><img src="/svg/Vector-arrow-down.svg" alt=""> </a>
                     </div>
                 </div>
 
@@ -104,19 +105,19 @@
 
         <main>
             <!-- sessao tatto -->
-            <section class="tatto-main">
+            <section class="tatto-main" id="tattoo">
                 <div class="tatto-main-content">
                     <h1>Tatto</h1>
                     <p>Pequeno texto sobre tatuagens <br>
                         mussum ipsum,litro abertis <br>
                         cacilds vidis</p>
 
-                    <a href="#">Ver mais<img src="/svg/button_mais.svg" alt="ver mais button"></a>
+                    <a href="#galeria-tattoo">Ver mais<img src="/svg/button_mais.svg" alt="ver mais button"></a>
                 </div>
             </section>
 
             <!-- sessao carousel tatto -->
-            <section class="carousel-tatto ">
+            <section class="carousel-tatto " id="galeria-tattoo">
                 <p>Galeria/Tattos</p>
                 <div class="owl-carousel owl-theme">
 
@@ -186,12 +187,12 @@
                         mussum ipsum,litro abertis <br>
                         cacilds vidis</p>
 
-                    <a href="#">Ver mais<img src="/svg/button_mais.svg" alt="ver mais button"></a>
+                    <a href="#galeria-piercing">Ver mais<img src="/svg/button_mais.svg" alt="ver mais button"></a>
                 </div>
             </section>
 
             <!-- sessao carousel piercing -->
-            <section class="carousel-piercing ">
+            <section class="carousel-piercing " id="galeria-piercing">
                 <p>Galeria/Piercing</p>
                 <div class="owl-carousel owl-theme">
 
@@ -259,7 +260,7 @@
                             Vila miriam - CEP 0000-00000</p>
                         <div class="mobile-phone">
                             <img src="/svg/mobile_phone.svg" alt="">
-                            <p>+55 11 9999 9999</p>
+                            <a href="https://api.whatsapp.com/send?phone=5511960826995">+55 11 9608-26995</a>
                         </div>
                     </div>
 
@@ -286,7 +287,7 @@
         }
 
         // scroll-reveal 
-        ScrollReveal().reveal('h1,p', { duration: 3000 });
+        ScrollReveal().reveal('h1,p,a', { duration: 3000 });
 
         // opacity
         ScrollReveal().reveal('button', {

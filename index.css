@@ -4,6 +4,11 @@
 
 }
 
+html {
+    scroll-behavior: smooth;
+
+}
+
 body {
     background-color: black;
     max-width: 100%;
@@ -50,7 +55,7 @@ button {
 
 /* nav-menu */
 .nav-menu {
-    width: 99%;
+    width: 100%;
     box-sizing: border-box;
     background-color: black;
     height: 15vh;
@@ -83,7 +88,7 @@ button {
 
 /* logo-header-navbar img */
 .logo-header-navbar img {
-    margin-right: .80em;
+    margin-right: .90em;
 }
 
 /* header-navbar p,li */
@@ -173,7 +178,7 @@ img :hover {
 .vector-svg-menu-mobile {
     height: 1.50em;
     position: absolute;
-    right: 3em;
+    right: 2em;
     cursor: pointer;
 }
 
@@ -514,9 +519,10 @@ button :hover {
 }
 
 /* mobile-phone p */
-.mobile-phone p {
+.mobile-phone a {
     color: RGB(234, 88, 12);
     margin-top: -.10em;
+    text-decoration: none;
 }
 
 /* carousel-tatto */

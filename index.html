@@ -60,9 +60,9 @@
                         </div>
                         <nav>
                             <ul>
-                                <li><a href="#">Tatto</a></li>
-                                <li><a href="#">Piercing</a></li>
-                                <li><a href="#">Contato</a></li>
+                                <li><a href="#tattoo" onclick="clickMenu()">Tatto</a></li>
+                                <li><a href="#piercing" onclick="clickMenu()">Piercing</a></li>
+                                <li><a href="#contato" onclick="clickMenu()">Contato</a></li>
 
                             </ul>
                             <div class="navbar-orcamento">
@@ -180,7 +180,7 @@
             </section>
 
             <!-- sessao piercing -->
-            <section class="piercing-main">
+            <section class="piercing-main" id="piercing">
                 <div class="piercing-main-content">
                     <h1>Piercing</h1>
                     <p>Pequeno texto sobre tatuagens <br>
@@ -248,7 +248,7 @@
 
 
             <!-- sessao contato -->
-            <section class="contato">
+            <section class="contato" id="contato">
                 <div class="contato-main-content">
                     <h1>Contato</h1>
                     <div class="mapbox">
@@ -287,7 +287,7 @@
         }
 
         // scroll-reveal 
-        ScrollReveal().reveal('h1,p,a', { duration: 3000 });
+        ScrollReveal().reveal('h1,p', { duration: 3000 });
 
         // opacity
         ScrollReveal().reveal('button', {

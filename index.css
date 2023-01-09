@@ -6,6 +6,7 @@
 
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 
 }
 
@@ -81,6 +82,7 @@ button {
     display: flex;
     align-items: center;
     justify-content: space-between;
+
     font-size: 30px;
     border-bottom: 2px solid RGB(0, 0, 0);
     color: RGB(255, 255, 255);
@@ -90,6 +92,12 @@ button {
 .logo-header-navbar img {
     margin-right: .90em;
 }
+
+
+.logo-header-navbar p {
+    color: white;
+}
+
 
 /* header-navbar p,li */
 .header-navbar .forest {

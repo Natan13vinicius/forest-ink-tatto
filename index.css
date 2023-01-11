@@ -6,7 +6,6 @@
 
 html {
     scroll-behavior: smooth;
-    /* overflow-y: hidden; */
 
 }
 
@@ -113,6 +112,7 @@ button {
     z-index: 999;
     /* NAVBAR DESATIVADO!!!!! */
     display: none;
+    overflow: hidden;
 
 
 }
@@ -221,7 +221,7 @@ img :hover {
     flex-direction: column;
     align-items: left;
     justify-content: center;
-
+    overflow-x: hidden;
 
 
 }
@@ -236,7 +236,7 @@ img :hover {
     line-height: 1.20em;
 
     margin-top: 3.50em;
-
+    overflow-x: hidden;
 }
 
 /* main.header p e button */
@@ -340,7 +340,7 @@ button :hover {
     box-sizing: border-box;
     max-width: 100%;
     min-width: 100%;
-
+    overflow-x: hidden;
     margin-left: 3em;
     margin-right: 1em;
     padding-right: 1em;
@@ -358,20 +358,30 @@ button :hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
-
-
-
-
+    overflow-x: hidden;
 }
 
 /* tatto-main-content h1 */
-.tatto-main-content h1 {
+.tatto-main-content h1 :first-child {
     font-size: 60px;
     border-bottom: 2px solid RGB(102, 102, 102);
     margin-bottom: .50em;
     width: 55%;
     margin-left: .20em;
 
+}
+
+/* tatto-main-content-text-fill */
+.text-fill-tattoo-section {
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: thin RGB(234, 88, 12);
+    opacity: .2;
+    font-size: 120px;
+
+    top: 15%;
+    left: 0;
+    /* background-color: green; */
+    line-height: 104px;
 }
 
 /* tatto-main-content p */
@@ -414,7 +424,7 @@ button :hover {
     box-sizing: border-box;
     max-width: 100%;
     min-width: 100%;
-
+    overflow-x: hidden;
     margin-left: 3em;
     margin-right: 1em;
     padding-right: 1em;
@@ -422,6 +432,19 @@ button :hover {
     flex-direction: column;
     align-items: left;
     justify-content: center;
+}
+
+/* tatto-main-content-text-fill */
+.text-fill-piercing-section {
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: thin RGB(234, 88, 12);
+    opacity: .2;
+    font-size: 100px;
+
+    top: -90;
+    left: 0;
+    /* background-color: green; */
+    line-height: 104px;
 }
 
 /* piercing-main-content */
@@ -436,7 +459,7 @@ button :hover {
 
 /* piercing-main-content-h1 */
 .piercing-main-content h1 {
-    font-size: 60px;
+    font-size: 70px;
     border-bottom: 2px solid RGB(102, 102, 102);
     margin-bottom: .50em;
     width: 55%;
@@ -471,6 +494,8 @@ button :hover {
     margin-left: 1em;
 }
 
+
+
 /* sessao contato */
 
 /* contato */
@@ -479,6 +504,7 @@ button :hover {
     width: 100%;
     /* background-color: red; */
     margin-left: 3em;
+
 }
 
 /* contato-main-content */

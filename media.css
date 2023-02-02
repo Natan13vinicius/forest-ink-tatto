@@ -1,0 +1,35 @@
+@media screen and (min-width:585px) and (max-width:768px) {
+
+    /* main-header-h1 */
+    .h1-principal {
+        font-size: 120px;
+    }
+
+    /* main header background img */
+    .main-header {
+        background-image: none;
+        background-image: url(/assets/img/image\ 7.png);
+        background-position: center;
+        padding-left: 2em;
+    }
+
+    /* h1-text-fill-orange */
+    .h1-text-fill-orange {
+        font-size: 12em;
+        line-height: .80em;
+    }
+
+    /* main-header-p-box */
+    .main-header-p-box p {
+        font-size: 18px;
+        /* margin-bottom: 2em; */
+    }
+
+    .button-box {
+        color: yellow;
+        padding-top: 5em;
+    }
+
+
+
+}

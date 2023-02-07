@@ -1,8 +1,38 @@
+@media screen and (max-width: 585px) {
+    .menu-bar-desktop {
+        display: none;
+    }
+
+    .nav-menu {
+        display: flex;
+    }
+}
+
+
+
+
 @media screen and (min-width:585px) and (max-width:768px) {
+
+    .menu-bar-desktop {
+        display: none;
+    }
+
+    .nav-menu {
+        display: flex;
+    }
+
+    .navbar-orcamento a {
+        font-size: 30px;
+    }
+
+    .forest {
+        color: white;
+        opacity: 1;
+    }
 
     /* main-header-h1 */
     .h1-principal {
-        font-size: 120px;
+        font-size: 117px;
     }
 
     /* main header background img */
@@ -10,18 +40,31 @@
         background-image: none;
         background-image: url(/assets/img/image\ 7.png);
         background-position: center;
-        padding-left: 2em;
+        padding-left: 1em;
     }
 
     /* h1-text-fill-orange */
     .h1-text-fill-orange {
-        font-size: 12em;
+        font-size: 10em;
         line-height: .80em;
+
+    }
+
+    .forest-ink-text {
+
+        padding-top: 6em;
+    }
+
+    /* main-header-p-box */
+    .main-header-p-box {
+
+        padding-top: 3.70em;
+
     }
 
     /* main-header-p-box */
     .main-header-p-box p {
-        font-size: 18px;
+        font-size: 20px;
         /* margin-bottom: 2em; */
     }
 
@@ -30,6 +73,78 @@
         padding-top: 5em;
     }
 
+    /* tatto-main-content */
+    .tatto-main-content h1 {
+        font-size: 90px;
 
 
+    }
+
+    .tatto-main-content p {
+        font-size: 17px;
+    }
+
+    /* tatto-main-content a */
+    .tatto-main-content a {
+        margin-top: 3em;
+    }
+
+    /* piercing */
+    /* piercing-main */
+    .piercing-main {}
+
+    .piercing-main-content h1 {
+        font-size: 90px;
+    }
+
+    .piercing-main-content p {
+        font-size: 17px;
+    }
+
+    /* piercing-main-content a */
+    .piercing-main-content a {
+        margin-top: 3em;
+    }
+
+    /* carousel-tatto */
+    .carousel-tatto p {
+        font-size: 30px;
+    }
+
+    /* carousel-piercing */
+    .carousel-piercing p {
+        font-size: 30px;
+    }
+
+
+}
+
+/* 768px-1024 */
+@media screen and (min-width:768px) and (max-width:1024px) {
+
+    /* mains-header */
+    .main-header {
+        background-image: none;
+        background-image: url(/assets/img/image\ 7.png);
+        background-position: center;
+    }
+
+
+}
+
+@media screen and (min-width:1024px) {
+    .main-header {
+        background-image: none;
+        background-image: url(/assets/img/image\ 7.png);
+
+    }
+
+    .menu-bar-desktop {
+        padding-right: 5em;
+    }
+
+    .menu-bar-desktop ul {
+        margin-right: 5em;
+        align-items: right;
+    }
 }

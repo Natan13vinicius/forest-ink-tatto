@@ -43,6 +43,64 @@ h1 {
     line-height: 104px;
 }
 
+/* menu-bar-desktop */
+.menu-bar-desktop {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: black;
+    height: 18vh;
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    position: fixed;
+    top: 0;
+    align-items: center;
+    border-bottom: 2px solid RGBA(234, 88, 12, 0.3);
+    z-index: 999;
+    color: white;
+    padding-right: 20em;
+}
+
+/* menu-bar-desktop-ul */
+.menu-bar-desktop ul {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30em;
+    align-items: center;
+
+
+}
+
+.menu-bar-desktop ul li {
+    list-style: none;
+    margin-left: 2em;
+    font-size: 19px;
+
+}
+
+/* menu-bar-desktop a */
+.menu-bar-desktop a {
+    text-decoration: none;
+    color: #7C2D12;
+    cursor: pointer;
+}
+
+.menu-bar-desktop a:hover {
+    color: #b73b12;
+}
+
+/* orcamento-desktop-nav */
+
+
+.menu-bar-desktop button {
+    margin-left: 3em;
+    background-color: black;
+    padding: .70em;
+    border: 1px solid #b73b12;
+    padding-left: 2.20em;
+    padding-right: 2.20em;
+
+}
 
 /* nav-menu */
 .nav-menu {
@@ -58,6 +116,7 @@ h1 {
     align-items: center;
     border-bottom: 2px solid RGBA(234, 88, 12, 0.3);
     z-index: 999;
+    display: none;
 }
 
 /* navmenu i */
@@ -85,6 +144,8 @@ h1 {
 /* header-navbar p,li */
 .header-navbar .forest {
     font-family: 'Playfair Display', serif;
+    color: white;
+
 }
 
 /* header-navbar */
@@ -98,6 +159,7 @@ h1 {
     display: none;
     overflow-y: hidden;
     overflow-x: hidden;
+    opacity: 0.98;
 
 }
 
@@ -141,7 +203,7 @@ h1 {
 
 
 /* navbar-orçamento p */
-.navbar-orcamento p {
+.navbar-orcamento span {
     font-size: 25.26px;
     margin-left: .50em;
     font-family: 'Montserrat', sans-serif;

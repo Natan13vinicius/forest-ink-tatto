@@ -410,6 +410,60 @@ button :hover {
 
 }
 
+/* TATTO main FILHO */
+/* galery-container */
+/* .galery-container {
+    width: 100%;
+    padding: 50px 0;
+}
+
+.filho {
+    width: 100%;
+    max-width: 1600px;
+    margin: auto;
+    padding: 20px 20px;
+
+}
+
+.galery-container .neto a {
+    padding: 10px;
+}
+
+.galery-container .neto {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    z-index: 999;
+}
+
+.galery-container .image {
+    flex: 25%;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.galery-container .image img {
+    width: 100%;
+    height: 100%;
+    transition: 0.4s;
+    border-radius: 10px;
+}
+
+.galery-container .image img :hover {
+    transform: scale(1.5);
+} */
+.gallery img {
+    width: 100%;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.gallery {
+    column-count: 4;
+    column-gap: 10px;
+
+}
+
 /* tatto-main-content h1 */
 .tatto-main-content h1 {
     font-size: 60px;
@@ -443,10 +497,10 @@ button :hover {
 }
 
 /* tatto-main-content img */
-.tatto-main-content img {
+/* .tatto-main-content img {
     margin-left: 1em;
-    
-}
+
+} */
 
 /* sessao piercing */
 
@@ -581,8 +635,8 @@ button :hover {
 
 /* carousel-tatto */
 .carousel-tatto {
-    height: 100vh;
-    width: 95%;
+    /* height: 100vh; */
+    /* width: 95%; */
     /* background-color: RGB(234, 88, 12); */
     margin-left: auto;
     padding: 0 2em;
@@ -612,14 +666,14 @@ button :hover {
 
 }
 
-.owl-carousel img {
+/* .owl-carousel img {
     height: 73.50vh;
     max-width: 346px;
     min-width: 345px;
     border-radius: 5px;
 
 
-}
+} */
 
 .owl-carousel span {
     color: RGB(234, 88, 12);
@@ -677,12 +731,12 @@ button :hover {
 
 }
 
-.owl-carousel img {
+/* .owl-carousel img {
     height: 73.50vh;
     max-width: 346px;
     border-radius: 5px;
 
-}
+} */
 
 .owl-carousel span {
     color: RGB(234, 88, 12);

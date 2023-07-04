@@ -6,7 +6,15 @@
     .nav-menu {
         display: flex;
     }
+
+    .gallery {
+        column-count: 3;
+        column-gap: 10px;
+
+    }
 }
+
+
 
 
 
@@ -107,9 +115,9 @@
     }
 
     /* carousel-tatto */
-    .carousel-tatto p {
+    /* .carousel-tatto p {
         font-size: 30px;
-    }
+    } */
 
     /* carousel-piercing */
     .carousel-piercing p {
@@ -146,5 +154,11 @@
     .menu-bar-desktop ul {
         margin-right: 5em;
         align-items: right;
+    }
+
+    @media screen and (max-width:1200px) {
+        .galery-container .image {
+            flex: 100%;
+        }
     }
 }

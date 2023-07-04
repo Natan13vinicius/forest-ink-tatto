@@ -156,9 +156,5 @@
         align-items: right;
     }
 
-    @media screen and (max-width:1200px) {
-        .galery-container .image {
-            flex: 100%;
-        }
-    }
+
 }

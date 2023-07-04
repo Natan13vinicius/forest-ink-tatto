@@ -461,7 +461,7 @@ button :hover {
 .gallery {
     background-color: red;
     column-count: 4;
-    column-gap: 10px;
+    column-gap: 1px;
 
 }
 

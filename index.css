@@ -460,7 +460,6 @@ button :hover {
 }
 
 .gallery {
-    background-color: black;
     column-count: 4;
     column-gap: 10px;
 

@@ -5,9 +5,10 @@
 }
 
 body {
-    background-color: black;
+    background-color: rgb(19, 19, 19);
     max-width: 100%;
     overflow-x: hidden;
+
 
 }
 
@@ -459,7 +460,7 @@ button :hover {
 }
 
 .gallery {
-
+    background-color: black;
     column-count: 4;
     column-gap: 10px;
 

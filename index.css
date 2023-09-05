@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 
 }
 
@@ -12,8 +13,14 @@ body {
 
 }
 
+aside {
+    background-color: red;
+    width: 80px;
+}
+
 html {
     scroll-behavior: smooth;
+
 }
 
 main {
